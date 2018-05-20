@@ -12,35 +12,30 @@ This file contains the CSS variables for this template
 /**
 Font properties
 **/
-$font-family: 'Source Sans Pro', Arial, 'sans-serif';
-$font-size: 1.5rem;
-$font-weight: 300;
-$line-height: 1.7em;
-
-/** 
-Background image URL, relative to the CSS directory
-**/
-$background-image: url('../profile.jpg');
+$font-family: 'Raleway', Arial, 'sans-serif';
+$font-size: 2rem;
+$line-height: 1.2em;
 
 /**
 Main theme colours
 **/
-$primary:       #10182b;
+$primary:       #fdfdfd;
+$secondary:     #4d7ea8;
 
 /**
 Body text color
 **/
-$body-color:    #eee; 
-
-/**
-Content area width
-**/
-$content-area-width: 35%;
+$body-color:    #999; 
 
 /**
 Main wrapper padding
 **/
-$padding: 4rem;
+$image-width: 65%;
+
+/**
+Main wrapper padding
+**/
+$padding: 5rem;
 
 /**
 Spacing between paragraphs, etc.
@@ -48,6 +43,7 @@ Spacing between paragraphs, etc.
 $spacer: 30px;
 
 /**
-Border radius. set 0 to disable
+Border color. Use transparent for no border
 **/
-$border-radius: 0px;
+//$border-color: lighten($primary, 7%);
+$border-color: transparent;
